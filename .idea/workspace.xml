@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d4a649-f9cb-46b0-b719-b92cb0075a41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/ComputerAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/PCFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/ServerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/TestDesignPatterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abstractFact/practice/about" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoPattern/practice/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoPattern/practice/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoPattern/practice/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoPattern/practice/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoPattern/practice/Testfactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoPattern/practice/about" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clone/practice/Clonetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clone/practice/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FacadeTest">
+  <component name="RunManager" selected="Application.Clonetest">
+    <configuration name="Clonetest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.clone.practice.Clonetest" />
+      <module name="trials_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clone.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FacadeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.facade.practice.FacadeTest" />
       <module name="trials_java" />
@@ -119,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDynamicPoly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.poly.practice.TestDynamicPoly" />
-      <module name="trials_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.poly.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -155,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clonetest" />
         <item itemvalue="Application.FacadeTest" />
         <item itemvalue="Application.ReflectionDoubleCheckedTest" />
         <item itemvalue="Application.SingletonSerializedTest" />
         <item itemvalue="Application.ReflectionSingleTest" />
-        <item itemvalue="Application.TestDynamicPoly" />
       </list>
     </recent_temporary>
   </component>
