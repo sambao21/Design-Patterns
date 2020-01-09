@@ -1,0 +1,5 @@
+Abstract Factory Design Pattern in java example. Abstract Factory design pattern is one of the Creational patterns
+
+Abstract Factory pattern is almost similar to Factory Pattern except the fact that its more like factory of factories.
+
+In the Abstract Factory pattern, we get rid of if-else block and have a factory class for each sub-class.Then an Abstract Factory class that will return the sub-class based on the input factory class
