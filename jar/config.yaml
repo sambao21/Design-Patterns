@@ -1,0 +1,10 @@
+oauth.configuration:
+    accessUrl: https://api.cernercare.com/oauth/access
+    recordDev:
+        consumerKey: 6caa7e10-abd9-4c7d-98a4-091fac84771c
+venueService.configuration:
+    urldetails:
+        baseUrl: http://ref-record-extract-war.us.healtheintent.net/ref-record/service/venue
+        connection-timeout: 6000
+        read-timeout: 6000
+        number-of-retries: 3

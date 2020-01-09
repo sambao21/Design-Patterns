@@ -1,0 +1,160 @@
+{
+  "longitudinalRecordPlatformContexts": [
+    {
+      "contextMetaData": {
+        "contextIdentifier": "6142ACDE-C5F5-48CB-9EFB-073938B5F22F",
+        "contextAlias": "HEALTHE_INTENT_ALLERGY_ENVIRONMENTAL"
+      },
+      "populationRecordCategory": "allergenCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "E60C93E6-6554-461F-AB3C-7F8DFEBBD12B",
+        "contextAlias": "HEALTHE_INTENT_ALLERGY_MEDICATION"
+      },
+      "populationRecordCategory": "allergenCategories"
+    },
+    {
+      "populationRecordCategory": "allergenCategories",
+      "conceptAliases": [
+        "NO_KNOWN_ALLERGIES_NKA_CLIN",
+        "NO_KNOWN_DRUG_ALLERGY_NKDA_CLIN",
+        "NO_KNOWN_ENVIRONMENTAL_ALLERGY_CLIN",
+        "NO_KNOWN_FOOD_ALLERGY_CLIN"
+      ],
+      "leverageHealtheIntentPlatform": true
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "7B498C9B-C760-43E3-86AA-E9925E19E915",
+        "contextAlias": "HEALTHE_INTENT_DERIVED_ENCOUNTER"
+      },
+      "populationRecordCategory": "derivedEncounterCategory"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "4F58B167-817E-4732-83A9-82047BE2FBBC",
+        "contextAlias": "HEALTHE_INTENT_ALLERGY_FOOD"
+      },
+      "populationRecordCategory": "allergenCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "13A95538-1FD0-4E23-8BEC-48D851F04FF9",
+        "contextAlias": "HEALTHE_INTENT_MEDICATION"
+      },
+      "populationRecordCategory": "mainIngredientCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "53EF3068-AE8F-4EDE-9951-DC170CBBE6DA",
+        "contextAlias": "HEALTHE_INTENT_CONDITION"
+      },
+      "populationRecordCategory": "conditionCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "D2FB4EF0-5274-4C1A-8055-ECF61C06D91A",
+        "contextAlias": "HEALTHE_INTENT_SYMPTOM"
+      },
+      "populationRecordCategory": "conditionCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "640eb344-1779-4175-b22a-9f9951a81e26",
+        "contextAlias": "HEALTHE_INTENT_IMMUNIZATION"
+      },
+      "populationRecordCategory": "immunizationCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "B2951ED3-75AA-4209-BD7B-3BACBF03C0D3",
+        "contextAlias": "HEALTHE_INTENT_VITAL_SIGNS"
+      },
+      "populationRecordCategory": "vitalSignCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "D1EF6DD8-A18C-429E-9A95-C77A5439956D",
+        "contextAlias": "HEALTHE_INTENT_RESULT"
+      },
+      "populationRecordCategory": "resultCategories"
+    },
+    {
+      "contextMetaData": {
+        "contextIdentifier": "2A8180EF-0FB4-4CC6-898F-19243F9A3DAC",
+        "contextAlias": "HEALTHE_INTENT_PROCEDURE"
+      },
+      "populationRecordCategory": "procedureCategories"
+    },
+    {
+      "populationRecordCategory": "continuousEnrollmentContexts",
+      "contextMetaData": {
+        "contextAlias": "HEDIS_2016_HYBRID",
+        "contextIdentifier": "4330E409-E773-4A68-8D26-C13845E51376"
+      },
+      "conceptAliases": [
+        "MEDICAID_INSTYPE",
+        "MEDICARE_INSTYPE",
+        "COMMERCIAL_PRIVATE_INSTYPE",
+        "MEDICAL_COVERAGE_INSTYPE"
+      ]
+    },
+    {
+      "populationRecordCategory": "continuousEnrollmentContexts",
+      "contextMetaData": {
+        "contextAlias": "HEDIS_2018_HYBRID",
+        "contextIdentifier": "18ad707a-9975-4df4-99b2-5550c2aee66b"
+      },
+      "conceptAliases": [
+        "COMMERCIAL_PRIVATE_INSTYPE",
+        "COMMERCIAL_EPO_INSTYPE",
+        "COMMERCIAL_FFS_INSTYPE",
+        "COMMERCIAL_HMO_INSTYPE",
+        "COMMERCIAL_POS_INSTYPE",
+        "COMMERCIAL_PPO_INSTYPE",
+        "MARKETPLACE_EPO_INSTYPE",
+        "MARKETPLACE_HMO_INSTYPE",
+        "MARKETPLACE_POS_INSTYPE",
+        "MARKETPLACE_PPO_INSTYPE",
+        "MEDICAID_INSTYPE",
+        "MEDICAID_DISABLED_HMO_INSTYPE",
+        "MEDICAID_DUAL_ELIGIBLE_HMO_INSTYPE",
+        "MEDICAID_FFS_INSTYPE",
+        "MEDICAID_LOW_INCOME_HMO_INSTYPE",
+        "MEDICAID_RESTRICTED_BENEFIT_HMO_INSTYPE",
+        "MEDICARE_INSTYPE",
+        "MEDICARE_ADVANTAGE_HMO_INSTYPE",
+        "MEDICARE_ADVANTAGE_POS_INSTYPE",
+        "MEDICARE_ADVANTAGE_PPO_INSTYPE",
+        "MEDICARE_COST_INSTYPE",
+        "MEDICARE_FFS_INSTYPE",
+        "MEDICARE_MEDICAID_PLANS_INSTYPE",
+        "SPECIAL_NEEDS_PLAN_CHRONIC_CONDITION_INSTYPE",
+        "SPECIAL_NEEDS_PLAN_DUAL_ELIGIBLE_INSTYPE",
+        "SPECIAL_NEEDS_PLAN_INSTITUTIONALIZED_INSTYPE",
+        "MEDICAL_COVERAGE_INSTYPE"
+      ]
+    }
+  ],
+  "analyticsPlatformContexts": [
+      {
+       "populationRecordCategory": "analytics3MClassification",
+       "contextMetaData": {
+         "contextAlias": "ANALYTICS_3M_CLASSIFICATION",
+         "contextIdentifier": "BD698267-E91C-49E3-BD31-0D7DA6616F52"
+      }
+    },
+    {
+       "populationRecordCategory": "analyticsTruvenClassification",
+       "contextMetaData": {
+         "contextAlias": "ANALYTICS_TRUVEN_CLASSIFICATION",
+         "contextIdentifier": "E7381201-9462-478A-A7A8-3DBD120514CB"
+      }
+    }
+  ],   
+  "healtheIntentPlatformContext": {
+    "contextIdentifier": "30517BF1-0C68-4D73-9557-456902A50563",
+    "contextAlias": "HEALTHE_INTENT_PLATFORM"
+  }
+}
